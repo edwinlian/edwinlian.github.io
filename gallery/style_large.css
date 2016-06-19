@@ -1,0 +1,82 @@
+html, body {
+	margin: 0;
+	padding: 0;
+    height: 100%;
+	font-family: 'Martel', serif;
+}
+
+.head {
+	text-align: center;
+	font-size: 32px;
+	margin-bottom: 60px;
+}
+
+.head h1 {
+	margin-bottom: 0px;
+	margin-top: 60px;
+	height: 100px;
+	letter-spacing: 1.5px;
+}
+
+#img-container {
+	text-align: center;
+}
+
+#img-container .img{
+	border: 5px solid black;
+	width: 30%;
+	height: 300px;
+	margin: 0px 10px 10px 10px;
+	cursor: pointer;
+	-webkit-filter: grayscale(40%); /* Chrome, Safari, Opera */
+    filter: grayscale(40%);
+}
+
+
+@keyframes img-mouseenter {
+	from {	-webkit-filter: grayscale(40%); 
+    filter: grayscale(40%);}
+    to {	-webkit-filter: grayscale(0%); 
+    filter: grayscale(0%);}
+}
+
+@keyframes img-mouseleave {
+	from {	-webkit-filter: grayscale(0%); 
+    filter: grayscale(0%);}
+    to {	-webkit-filter: grayscale(40%); 
+    filter: grayscale(40%);}
+}
+
+.mouseenter {
+	animation-name: img-mouseenter;
+	animation-duration: 0.5s;
+}
+
+.mouseleave {
+	animation-name: img-mouseleave;
+	animation-duration: 0.5s; 
+}
+
+#large-image-container {
+	min-width: 100%;
+	min-height: 100vh;
+	position: fixed;
+	top: 0;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.large-image {
+	z-index: 2;
+	top: 15%;
+	left: 15%;
+	width: 70%;
+	height: 70%;
+	min-height: 500px;
+	min-width: 1000px;
+	position: absolute;
+	overflow: auto;
+	border: 10px solid black;
+	border-radius: 2%;
+	margin-bottom: 10px;
+	display: block;
+}

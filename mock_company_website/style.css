@@ -1,0 +1,227 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	background-color: #264d73;
+
+}
+
+nav {
+	text-align: center;
+	width: 100%;
+	border-bottom: solid #4d4d4d 5px;
+	height: 100px;
+	/*background-color: #264d73;*/
+
+	background-color: #333333;
+	background: -webkit-linear-gradient(#4d4d4d, ##333333); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#4d4d4d, #333333); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#4d4d4d, #333333); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4d4d4d, #333333); /* Standard syntax */
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+	padding: 40px 0px 30px 0px;
+}
+
+nav li {
+	float: left;
+	font-size: 24px;
+}
+
+nav li a {
+	color: white;
+	padding: 0px 30px 0px 30px;
+	text-decoration: none;
+}
+
+nav li:hover {
+	border-bottom: solid 2px white;
+}
+
+#carousel {
+	text-align: center;
+	width: 100%;
+	height: 540px;
+	background-color: #333333;
+	border-bottom: solid 4px #4d4d4d;
+}
+
+#container {
+	display: inline-block;
+	position: relative;
+}
+
+#carousel #carousel-img {
+	height: 540px;
+	width: 1080px;
+}
+
+#carousel-arrow-prev {
+	float: left;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 536px;
+	width: 140px;
+
+}
+
+#carousel-arrow-next {
+	float: right;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: 935px;
+	height: 536px;
+	width: 140px;
+}
+
+#carousel a {
+	display: block;
+	width: 140px;
+	height: 536px;
+	z-index: 1;
+}
+
+#carousel a img {
+	position: absolute;
+	top: 238px;
+	left: 40px;
+}
+
+#employee-showcase {
+	background-color: #264d73;
+	text-align: center;
+	padding-top: 50px;
+}
+
+
+.employee-img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+#employee-showcase h1 {
+	color: white;
+	margin: 0px;
+}
+
+#employee-showcase p {
+	padding: 0px 50px 0px 50px;
+	color: white;
+	max-width: 500px;
+}
+
+.image {
+	display: none;
+}
+
+.current-image {
+	display: block;
+}
+
+footer {
+	border-top: 5px solid #4d4d4d;
+	text-align: center;
+}
+
+.footer-row {
+	padding: 0px 0px 20px 0px;
+	background-color: #333333;
+	color: white;
+}
+
+.footer-row a {
+	vertical-align: 7px;
+	color: white;
+	text-decoration: none;
+}
+
+.footer-row a:hover {
+	color: #e60000;
+}
+
+.footer-row img {
+	padding: 0px 10px 0px 30px;
+}
+
+#copyright {
+	padding-top: 30px;
+}
+
+#about-container {
+	background-color: #264d73;
+	color: white;
+	width: 95%;
+	padding: 0px 0px 52px 40px;
+}
+
+#about-container h1 {
+	float: left;
+	width: 100%;
+	/*padding-left: 10px;*/
+	font-size: 48px;
+}
+
+#about-container p {
+	margin: 20px 0px 0px 0px;
+	font-size: 22px;
+}
+
+#about-container img {
+	float: right;
+	margin: 0px 0px 20px 40px;
+	height: 300px;
+	width: 280px;
+}
+
+#contacts-container {
+	height: 650px;
+	color: white;
+	margin: 55px 0px 50px 5px;
+}
+
+#contacts-container ul {
+	list-style: none;
+}
+
+#contacts-container li {
+	padding-bottom: 25px;
+}
+
+#contacts-container h1 {
+	font-size: 42px;
+}
+
+#contacts-container p {
+	font-size: 22px;
+}
+
+#careers-container {
+	height: 650px;
+	margin: 40px 0px 0px 0px;
+	color: white;
+}
+
+#careers-container h1 {
+	padding: 10px 0px 20px 40px;
+	font-size: 48px;
+}
+
+#careers-container ul {
+	list-style: none;
+}
+
+#careers-container li {
+	padding-bottom: 25px;
+}
+
+#careers-container a {
+	color: white;
+	font-size: 32px;
+}
